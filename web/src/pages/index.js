@@ -1,12 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import ReactDOM from "react-dom"
 import BlockContent from "@sanity/block-content-to-react"
-const client = require("@sanity/client")({
-  projectId: "rv8rfbfl",
-  dataset: "production",
-  useCdn: false,
-})
 
 const serializers = {
   types: {
